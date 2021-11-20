@@ -13,10 +13,11 @@ const MyOrder = () => {
 		return sum;
 	}
 
+
   return (
     <aside className="MyOrder">
 			<div className="title-container">
-				<img src={flecha} alt="arrow" />
+				<img src={flecha} alt="arrow" onClick=""/>
 				<p className="title">My order</p>
 			</div>
 			<div className="my-order-content">
